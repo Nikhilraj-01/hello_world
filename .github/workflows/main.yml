@@ -15,10 +15,10 @@ jobs:
 
       - name: Deploy website
         run: |
-          sudo mkdir -p /var/www/hello-world
-          sudo cp index.html /var/www/hello-world/index.html
-          sudo chmod 755 /var/www/hello-world
-          sudo chmod 644 /var/www/hello-world/index.html
+          mkdir -p /var/www/hello-world
+          cp index.html /var/www/hello-world/index.html
+          chmod 755 /var/www/hello-world
+          chmod 644 /var/www/hello-world/index.html
 
       - name: Show deployment status
         run: |
