@@ -15,7 +15,7 @@ jobs:
 
       - name: Deploy website
         run: |
-          mkdir -p /var/www/hello-world
+          
           cp index.html /var/www/hello-world/index.html
           chmod 755 /var/www/hello-world
           chmod 644 /var/www/hello-world/index.html
